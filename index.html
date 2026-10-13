@@ -303,6 +303,13 @@ tfoot td{font-weight:700;border-top:2px solid var(--line-strong);border-bottom:0
       </div>
 
       <div class="card">
+        <div class="card-h"><h3>مطابقة المبيعات مع قائمة الدخل</h3><span class="note">للتأكد أن المصدرين يتكلمان عن نفس الشهر</span></div>
+        <div id="fin-recon"></div>
+        <div style="font-family:var(--font-d);font-weight:700;font-size:14px;margin-top:16px">ملاحظات على المرفقات نفسها</div>
+        <ul id="fin-checks" style="font-size:13px;line-height:1.85;color:var(--ink-2);padding-inline-start:18px;margin:8px 0 0"></ul>
+      </div>
+
+      <div class="card">
         <div class="card-h"><h3>من الإيراد إلى صافي الربح</h3><span class="note" id="fin-wf-note"></span></div>
         <div class="seg" style="margin-top:12px;width:max-content;max-width:100%;overflow-x:auto" role="group" aria-label="اختيار الجهة">
           <button data-fb="all" aria-pressed="true">الإجمالي</button>
@@ -348,26 +355,17 @@ tfoot td{font-weight:700;border-top:2px solid var(--line-strong);border-bottom:0
         </div>
       </div>
 
-      <div class="grid">
-        <div class="card">
-          <div class="card-h"><h3>تكاليف تجهيز فرع الدمام</h3><span class="note" id="fin-capex-note"></span></div>
-          <div class="chart" id="c-fin-capex"></div>
-          <div class="tablewrap">
-            <table style="min-width:360px"><thead><tr><th>تفصيل التحسينات على الأصول المستأجرة</th><th>المبلغ</th></tr></thead><tbody id="fin-capex-t"></tbody></table>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-h"><h3>مطابقة المبيعات مع قائمة الدخل</h3><span class="note">للتأكد أن المصدرين يتكلمان عن نفس الشهر</span></div>
-          <div id="fin-recon"></div>
-          <div style="font-family:var(--font-d);font-weight:700;font-size:14px;margin-top:16px">ملاحظات على المرفقات نفسها</div>
-          <ul id="fin-checks" style="font-size:13px;line-height:1.85;color:var(--ink-2);padding-inline-start:18px;margin:8px 0 0"></ul>
-        </div>
-      </div>
-
-
       <div class="card">
         <div class="card-h"><h3>بيان المقبوضات والمدفوعات للحسابات البنكية — كاملًا</h3><span class="note">من 01/09/2026 حتى 30/09/2026</span></div>
         <div id="fin-cashfull"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-h"><h3>تكاليف تجهيز فرع الدمام</h3><span class="note" id="fin-capex-note"></span></div>
+        <div class="chart" id="c-fin-capex"></div>
+        <div class="tablewrap">
+          <table style="min-width:360px"><thead><tr><th>تفصيل التحسينات على الأصول المستأجرة</th><th>المبلغ</th></tr></thead><tbody id="fin-capex-t"></tbody></table>
+        </div>
       </div>
 
       <div class="card">
